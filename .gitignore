@@ -1,0 +1,15 @@
+node_modules/
+.memory/
+.life/
+sessions/
+profiles/
+qq-browser-profile/
+*.jsonl
+*.log
+*.lock
+.env
+.env.*
+*.tgz
+*.zip
+config.local.*
+coverage/

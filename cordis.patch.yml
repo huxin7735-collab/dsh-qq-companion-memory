@@ -1,0 +1,5 @@
+- insert:
+    - id: qq-companion-memory-setup
+      name: dsh-qq-companion-memory/setup
+      config:
+        enabled: false

@@ -1,0 +1,23 @@
+{
+  "privateEntry": {
+    "id": "qq-memory",
+    "name": "dsh-qq-companion-memory",
+    "config": {
+      "ownerQQ": "10000001",
+      "workspacePath": "D:/qq-companion-data/private",
+      "memoryRoot": "D:/qq-companion-data/private/.memory"
+    }
+  },
+  "groupEntry": {
+    "id": "qq-group-memory",
+    "name": "dsh-qq-companion-memory/group",
+    "config": {
+      "ownerQQ": "10000001",
+      "groupId": "20000001",
+      "workspacePath": "D:/qq-companion-data/group-20000001",
+      "memoryRoot": "D:/qq-companion-data/group-20000001/.memory",
+      "activityPath": "",
+      "toolPolicy": "inherit"
+    }
+  }
+}

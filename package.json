@@ -1,0 +1,17 @@
+{
+  "name": "dsh-qq-companion-memory",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH QQ companion memory, member journals and independent evolving relationships.",
+  "license": "MIT",
+  "repository": {"type": "git", "url": "git+https://github.com/huxin7735-collab/dsh-qq-companion-memory.git"},
+  "homepage": "https://github.com/huxin7735-collab/dsh-qq-companion-memory#readme",
+  "main": "lib/index.mjs",
+  "exports": {".": "./lib/index.mjs", "./group": "./lib/group.mjs", "./setup": "./lib/setup.mjs", "./package.json": "./package.json"},
+  "engines": {"node": ">=24", "dsh": ">=0.2.1-0 <0.3.0-0"},
+  "peerDependencies": {"@deepseek-ai/dsh-tools": ">=0.2.1-0 <0.3.0-0", "@deepseek-ai/schemastery": "^3.18.0"},
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}},
+  "files": ["lib", "tests", "scripts", "examples", "README.md", "LICENSE", "NOTICE.md", "CHANGELOG.md", "cordis.patch.yml"],
+  "scripts": {"test": "node --test --test-isolation=none tests/*.test.mjs", "check": "node scripts/check-package.mjs"}
+}
