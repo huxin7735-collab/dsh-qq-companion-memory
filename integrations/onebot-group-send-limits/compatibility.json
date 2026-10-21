@@ -1,0 +1,43 @@
+{
+  "plugin": "dsh-onebot-qq",
+  "version": "0.9.3",
+  "baseline": "custom companion build; version number alone is insufficient",
+  "dshVerified": "0.2.1-rc.2",
+  "files": [
+    {
+      "path": "lib/bridge.js",
+      "beforeSha256": "f6fde604a05712212bfb80de1d35de33fcf285e8bf1ec9d6eb23d7fdf4e38fa3",
+      "afterSha256": "370dbbcbfb33c3e2a57f1680de639913c5c80288d737e5f7a09ce7daf5773d66"
+    },
+    {
+      "path": "lib/outbound.js",
+      "beforeSha256": "d7b1e719e9a7b5b998829c408824c06f6e970e2501b53dc9ba1f9c550a8ab59b",
+      "afterSha256": "62344eea5eb780236becf2df1829be86247fa229186cf78d31a4bc426935f25b"
+    },
+    {
+      "path": "lib/index.js",
+      "beforeSha256": "33f00802dc9744118ba8532e18964f597c9f4dde6d4346c696c087373ed74c1d",
+      "afterSha256": "96b2b3c8926cd0d6fed5bad278aef00fbf94b1ab0fa3644a5dc5a22a0510c202"
+    },
+    {
+      "path": "lib/group-send-limiter.js",
+      "beforeSha256": null,
+      "afterSha256": "e46aaf440a1247247ab62e2864cc665f1d43beb616f32cf6a99585a3cddb0127"
+    },
+    {
+      "path": "lib/types/bridge.d.ts",
+      "beforeSha256": "4205c6393c16ce25667f54406ec7e4e6f19a46baa7214b034ef8cd0929435bdc",
+      "afterSha256": "ecd7bb26d1e3ac0257f01234a336a2e8235c8aed5bf21cc8332daae8ab170912"
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "beforeSha256": "41051705e219125083602891c8657ee4ae6725343b0ab31aade71b7b21c3f8f2",
+      "afterSha256": "58453b101da91c0ec2f6864ca8290dc2089a8556da34e44acc8abf74f18eff0e"
+    },
+    {
+      "path": "lib/inject.js",
+      "beforeSha256": "59ce002c891bb6425d7adf77be9f04751a25500556e6f446d26d990c45055c5e",
+      "afterSha256": "f4bc2fc4c1945e0f9602c1c6b66519ad0423b53fff49cdcf3e9b1df805e45146"
+    }
+  ]
+}
